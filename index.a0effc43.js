@@ -1,0 +1,2 @@
+var e=document.querySelectorAll(".population"),t=[];e.forEach(function(e){return t.push(e.innerHTML)});var n=(t=t.map(function(e){return e.replaceAll(",","")})).reduce(function(e,t){return+e+ +t},0),o=n/t.length,r=document.querySelector(".total-population"),u=document.querySelector(".average-population");r.textContent=n.toLocaleString("en-US"),u.textContent=o.toLocaleString("en-US");
+//# sourceMappingURL=index.a0effc43.js.map
